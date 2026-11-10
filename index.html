@@ -1,16 +1,172 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Chocolatier</title>
+    <link rel="stylesheet" type="text/css"
+        href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/regular/style.css" />
+    <link rel="stylesheet" type="text/css"
+        href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/fill/style.css" />
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    
-<header>
-    <a href=""><img src="" alt=""></a>
-</header>
+
+    <header class="flex space-between align-center bg-chocolatier">
+        <a href=""><img src="assets/logo.png" alt=""></a>
+        <nav>
+            <p class="size-24">Noël</p>
+            <p class="size-24">Services</p>
+            <p class="size-24">Produits</p>
+            <p class="size-24">Avis</p>
+        </nav>
+        <nav>
+            <i class="ph ph-magnifying-glass"></i>
+            <i class="ph ph-user"></i>
+            <i class="ph ph-bag"></i>
+        </nav>
+    </header>
+
+    <!-- SECTION HERO -->
+    <section class="bg-hero flex column align-center pt-128 pb-256">
+        <p class="size-24 white">Évènements</p>
+        <h1 class="size-128 white">NOËL</h1>
+        <p class="size-48 white mb-32">Noël est enfin là, profitez-en !</p>
+        <a href="" class="btn-chocolatier">Produits de Noël</a>
+    </section>
+
+    <!-- SECTION PRESENTATION -->
+    <section class="container">
+        <div class="w-30">
+            <h2 class="size-24">Chocolats Artisanaux</h2>
+            <p>Découvrez notre sélection de chocolats faits à la main, alliant tradition et créativité pour des saveurs
+                uniques.</p>
+            <a href="" class="btn-chocolatier">Chocolats Artisanaux</a>
+        </div>
+        <div class="w-30">
+            <h2 class="size-24">Ateliers Dégustation</h2>
+            <p>Participez à nos ateliers pour apprendre à déguster le chocolat comme un expert, en explorant ses arômes
+                et ses textures.</p>
+            <a href="" class="btn-chocolatier">Ateliers Dégustation</a>
+        </div>
+        <div class="w-30">
+            <h2 class="size-24">Cadeaux Personnalisés</h2>
+            <p>Offrez des cadeaux gourmands avec nos coffrets de chocolats personnalisés, parfaits pour toutes les
+                occasions.</p>
+            <a href="" class="btn-chocolatier">Cadeaux Personnalisés</a>
+        </div>
+    </section>
+
+    <!-- SECTION PRODUITS -->
+     <section class="container flex">
+        <div class="w-30">
+            <h2 class="size-64">Découvrez nos produits</h2>
+            <a href="" class="btn-chocolatier size-40">Découvrir</a>
+        </div>
+        <div class="flex space-between w-50">
+            <div>
+                <img src="assets/praline.png" alt="">
+                <h3 class="size-20">Praliné croustillant</h3>
+                <p>Une ganache fondante au praliné, agrémentée d'éclats de noisettes croustillants.</p>
+                <a href="" class="btn-chocolatier">Voir plus</a>
+            </div>
+            <div>
+                <img src="assets/coffret.png" alt="">
+                <h3 class="size-20">Coffrets chocolats</h3>
+                <p>Un assortiment de chocolats fins, sélectionnés avec soin par nos chocolatiers.</p>
+                <a href="" class="btn-chocolatier">Voir plus</a>
+            </div>
+            <div>
+                <img src="assets/tablette.png" alt="">
+                <h3 class="size-20">Tablette choco noir</h3>
+                <p>Un chocolat noir intense et puissant, aux notes de cacao amer et de fruits secs.</p>
+                <a href="" class="btn-chocolatier">Voir plus</a>
+            </div>
+        </div>
+     </section>
+
+     <!-- SECTION AVIS -->
+      <section class="container-1000">
+            <h2 class="size-64 text-center mb-128">Avis Clients</h2>
+            <div class="flex space-between">
+                <div class="bg-chocolatier w-30 p-16">
+                    <div>
+                        <img src="assets/sophie.png" alt="">
+                        <div>
+                            <p class="size-24">Sophie</p>
+                            <p>Coffret chocolats</p>
+                        </div>
+                    </div>
+                    <p>Le coffret de chocolats que j'ai offert était magnifique et délicieux. Les saveurs étaient variées et originales, et la présentation était très soignée. Un grand merci au Palais du Chocolat pour ce cadeau parfait.</p>
+                    <div class="flex">
+                        <i class="ph-fill ph-star yellow"></i>
+                        <i class="ph-fill ph-star yellow"></i>
+                        <i class="ph-fill ph-star yellow"></i>
+                        <i class="ph-fill ph-star yellow"></i>
+                        <i class="ph-fill ph-star yellow"></i>
+                    </div>
+                </div>
+                <div class="w-30 bg-chocolatier p-16">
+                    <div>
+                        <img src="assets/antoine.png" alt="">
+                        <div>
+                            <p class="size-24">Antoine</p>
+                            <p>Mariage</p>
+                        </div>
+                    </div>
+                    <p>Les chocolats du Palais du Chocolat ont été un véritable succès lors de notre mariage. Tout le monde a adoré les saveurs raffinées et les présentations élégantes. Un grand bravo à toute l'équipe.</p>
+                    <div class="flex">
+                        <i class="ph-fill ph-star yellow"></i>
+                        <i class="ph-fill ph-star yellow"></i>
+                        <i class="ph-fill ph-star yellow"></i>
+                        <i class="ph-fill ph-star yellow"></i>
+                        <i class="ph-fill ph-star yellow"></i>
+                    </div>
+                </div>
+                <div class="w-30 bg-chocolatier p-16">
+                    <div class="flex align-center gap mb-32">
+                        <img src="assets/nicolas.png" alt="">
+                        <div>
+                            <p class="size-24">Nicolas</p>
+                            <p>Achat en boutique</p>
+                        </div>
+                    </div>
+                    <p class="mb-32">J'ai acheté une tablette de chocolat noir au Palais du Chocolat et je n'ai pas été déçu. Le chocolat était intense et puissant, avec des notes subtiles de fruits secs. Un vrai régal pour les papilles.</p>
+                    <div class="flex justify-right">
+                        <i class="ph-fill ph-star yellow"></i>
+                        <i class="ph-fill ph-star yellow"></i>
+                        <i class="ph-fill ph-star yellow"></i>
+                        <i class="ph-fill ph-star yellow"></i>
+                        <i class="ph ph-star"></i>
+                    </div>
+                </div>
+            </div>
+      </section>
+
+      <footer>
+        <div>
+        <div>
+            <img src="assets/logo.png" alt="">
+            <a href="">Contactez-nous</a>
+            <div>
+                <i class="ph-fill ph-facebook-logo"></i>
+                <i class="ph-fill ph-youtube-logo"></i>
+                <i class="ph-fill ph-instagram-logo"></i>
+            </div>
+        </div>
+        <div>
+            <h4 class="size-40">Abonnez-vous à notre newsletter</h4>
+            <input type="email" placeholder="fujinumasatoru@gmail.com">
+        </div>
+        </div>
+        <div>
+            <a href="">Mentions légales</a>
+            <a href="">Conditions générales</a>
+        </div>
+      </footer>
 
 </body>
+
 </html>
