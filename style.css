@@ -1076,3 +1076,9 @@ section {
 input{
   border: 1px solid black;
 }
+
+/* SCROLL */
+
+.scroll-mt{
+  scroll-margin-top: 10px;
+}
